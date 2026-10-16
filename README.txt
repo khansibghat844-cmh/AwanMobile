@@ -1,16 +1,12 @@
-AWAN MOBILES WEBSITE
+AWAN MOBILES WEBSITE — UPDATED PRODUCT DETAILS VERSION
 
-Files:
-- index.html: website home page
+Files to upload to the ROOT of your GitHub Pages repository:
+- index.html (homepage/catalog; replace the old one)
+- product.html (new phone detail page)
+- phones.js (shared phone catalogue data)
 
-GitHub Pages setup:
-1. Upload index.html to the root of your awan-mobiles repository (replace the old file).
-2. Commit the change to the main branch.
-3. Keep Settings > Pages set to Deploy from a branch, branch main, folder /(root).
-4. Wait a few minutes for the site to update.
+Important: upload all three files together into the same folder/root. Commit the changes to the branch used by GitHub Pages. GitHub Pages will then deploy the updated site.
 
-Important:
-- The catalog includes models supplied by the shop owner. Prices have not yet been provided, so price fields display that prices have not been added.
-- Some newer or region-specific models are marked as requiring model/specification confirmation.
-- Before advertising, verify each model number, memory variant, official specs, availability and selling price.
-- WhatsApp order links use the provided business number.
+Every product card now opens product.html?id=... and shows a details page with variant selection, price placeholder, specifications, image placeholders, and a WhatsApp order button. Current prices are intentionally blank until supplied. Only the variants currently listed in the catalogue are shown; send additional confirmed variants and prices to add them.
+
+Business WhatsApp: 03401929013
